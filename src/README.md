@@ -1,0 +1,3 @@
+- Hello. I finished the little test.
+- Please clone course code and type the command npm start or yarn start to run the project.
+- Thanks you!
