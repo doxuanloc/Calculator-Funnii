@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .calculator {
+        display: block;
+        height: 720px;
+        width: 420px;
+        background-color: var(--navy);
+        margin-left: 20px;
+        margin-top: 30px;
+        border-radius: 20px;
+        padding: 10px;
+        box-shadow: 1px 3px 3px 3px rgb(98, 91, 90);
+
+
+        .screen {
+            height: 200px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+            z-index: -10;
+        }
+
+        .screen p {
+            color: white;
+            font-size: 70px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
